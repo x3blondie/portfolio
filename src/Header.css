@@ -1,0 +1,35 @@
+.header {
+  background-color: #c4c4c4;
+  display: flex;
+  padding: 20px;
+  font-size: 20px;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header__image {
+  object-fit: contain;
+  width: 35px;
+  height: 35px;
+}
+
+.header > ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.header > ul > a {
+  padding-right: 25px;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+
+.header__home--active,
+.header__portfolio--active,
+.header__about--active {
+  color: purple;
+}
