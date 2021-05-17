@@ -12,10 +12,23 @@
   overflow: hidden;
 }
 
+.body__content {
+  width: 450px;
+  line-height: 1.5;
+}
+
 .portfolio-btn {
-  background-color: purple;
-  border: 1px solid black;
-  padding: 5px 10px;
-  margin-top: 10px;
+  background-color: #c42aff;
+  border: 0;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 40px;
   color: white;
+  border-radius: 4px;
+  transition: all 250ms ease;
+}
+
+.portfolio-btn:hover {
+  background-color: rgba(196, 42, 255, 0.75);
 }

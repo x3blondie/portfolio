@@ -4,10 +4,14 @@ a {
 }
 .project {
   width: fit-content;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 1px solid #ccc;
 }
 
 .project__top {
-  background-color: purple;
+  background-color: #c42aff;
+  color: white;
   width: 320px;
   text-align: center;
   padding: 15px;
